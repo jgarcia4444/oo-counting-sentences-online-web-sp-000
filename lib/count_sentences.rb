@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-
+    puts self.splt(/!.?/)
   end
 end
