@@ -16,6 +16,9 @@ class String
 
   def count_sentences
     split_arr = self.split(/[!*.*?*]/)
-    split_arr.length
+    counter = 0
+    split_arr.each do |sentence|
+      if sentence.flatten == ""
+    end
   end
 end
