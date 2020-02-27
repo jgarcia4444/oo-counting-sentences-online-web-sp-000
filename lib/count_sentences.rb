@@ -18,7 +18,7 @@ class String
     split_arr = self.split(/[!*.*?*]/)
     counter = 0
     split_arr.each do |sentence|
-      if sentence.flatten == ""
+      if sentence.chomp == ""
         next
       else
         counter += 1
