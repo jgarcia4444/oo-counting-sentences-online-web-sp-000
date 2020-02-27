@@ -19,6 +19,11 @@ class String
     counter = 0
     split_arr.each do |sentence|
       if sentence.flatten == ""
+        next
+      else
+        counter += 1
+      end
+      counter
     end
   end
 end
