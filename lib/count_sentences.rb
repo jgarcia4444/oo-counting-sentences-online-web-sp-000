@@ -23,7 +23,7 @@ class String
       else
         counter += 1
       end
-      counter
     end
+    counter
   end
 end
